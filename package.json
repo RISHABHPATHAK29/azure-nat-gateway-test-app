@@ -1,0 +1,14 @@
+{
+  "name": "azure-nat-gateway-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node --check server.js",
+    "test": "node --check server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
